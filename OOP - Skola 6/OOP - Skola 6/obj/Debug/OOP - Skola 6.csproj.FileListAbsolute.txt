@@ -1,0 +1,10 @@
+C:\Users\vomelaj.05\source\repos\OOP - Skola 6\OOP - Skola 6\bin\Debug\OOP - Skola 6.exe.config
+C:\Users\vomelaj.05\source\repos\OOP - Skola 6\OOP - Skola 6\bin\Debug\OOP - Skola 6.exe
+C:\Users\vomelaj.05\source\repos\OOP - Skola 6\OOP - Skola 6\bin\Debug\OOP - Skola 6.pdb
+C:\Users\vomelaj.05\source\repos\OOP - Skola 6\OOP - Skola 6\obj\Debug\OOP - Skola 6.csprojAssemblyReference.cache
+C:\Users\vomelaj.05\source\repos\OOP - Skola 6\OOP - Skola 6\obj\Debug\OOP___Skola_6.Form1.resources
+C:\Users\vomelaj.05\source\repos\OOP - Skola 6\OOP - Skola 6\obj\Debug\OOP___Skola_6.Properties.Resources.resources
+C:\Users\vomelaj.05\source\repos\OOP - Skola 6\OOP - Skola 6\obj\Debug\OOP - Skola 6.csproj.GenerateResource.cache
+C:\Users\vomelaj.05\source\repos\OOP - Skola 6\OOP - Skola 6\obj\Debug\OOP - Skola 6.csproj.CoreCompileInputs.cache
+C:\Users\vomelaj.05\source\repos\OOP - Skola 6\OOP - Skola 6\obj\Debug\OOP - Skola 6.exe
+C:\Users\vomelaj.05\source\repos\OOP - Skola 6\OOP - Skola 6\obj\Debug\OOP - Skola 6.pdb
