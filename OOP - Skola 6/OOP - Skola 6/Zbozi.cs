@@ -23,12 +23,18 @@ namespace OOP___Skola_6
 
         public bool SplnujeMinTrvandlivost()
         {
-            return minTrvandlivost >= DateTime.Now ? true : false;
+            return (minTrvandlivost - DateTime.Now).TotalDays >= 0;
         }
 
-        public int CenaSDPH()
+        public virtual int CenaSDPH()
         {
-            return cena + (int)(cena * 0.21);
+            return (int)(cena * (double)1.21);
+        }
+
+        public override string ToString()
+        {
+            return String.Format("Náazev: {0}\nCena: {1}Kč\nDatum výroby: {2}\nMinimální trvandlivost: {3}\nPřekročilo min. trvandlivost: {4}\nCena s DPH: {5}Kč", 
+                nazev,cena,datumVyroby.ToString("d"), minTrvandlivost.ToString("d"), SplnujeMinTrvandlivost() ? "Ne":"Ano", CenaSDPH());
         }
     }
 }

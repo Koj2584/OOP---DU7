@@ -17,13 +17,13 @@ namespace OOP___Skola_6
             InitializeComponent();
         }
 
-        Pekar p;
+        Produkt p;
 
         private void button1_Click(object sender, EventArgs e)
         {
             try
             {
-                p = new Pekar(textBox1.Text, textBox2.Text, dateTimePicker1.Value, short.Parse(textBox3.Text), short.Parse(textBox5.Text));
+                p = new Produkt(textBox1.Text, int.Parse(textBox2.Text), dateTimePicker1.Value, dateTimePicker2.Value, checkBox1.Checked);
             }
             catch
             {
@@ -33,7 +33,7 @@ namespace OOP___Skola_6
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(p.Vypis());
+            MessageBox.Show(p.ToString());
         }
     }
 }
